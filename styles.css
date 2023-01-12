@@ -138,3 +138,44 @@ a:hover{
     font-weight: 700;
     align-self: flex-end;
 }
+
+/* For call to action section */
+
+.action-container {
+    display: flex;
+    flex: 1;
+justify-content: center;
+}
+
+.action-island {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3882f6;
+    color: #f9faf8;
+    width: 65%;
+    padding: 40px 100px;
+    margin: 100px auto;
+    border-radius: 6px;
+    font-size: 20px;
+}
+
+.action-island h3{
+    margin: 0;
+}
+
+.action-island p{
+    margin: 8px 0;
+}
+
+.action-button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    height: fit-content;
+    font-size: 25px;
+    border-color: #f9faf8;
+    border-style: solid;
+    border-radius: 6px;
+    padding: 5px 40px;
+}
