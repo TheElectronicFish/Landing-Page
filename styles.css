@@ -2,6 +2,7 @@ body {
     display: flex;
     flex-flow: column nowrap;
     margin: 0;
+    height: 100vh;
 }
 
 /* For the header */
@@ -80,4 +81,36 @@ a:hover{
 
 .hero-right {
     margin-right: 300px;
+}
+
+/* For the information section */
+
+.info-container {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+.info-title{
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 800;
+    margin: 50px 0;
+}
+
+.info-pictures {
+    display: flex;
+    gap: 40px;
+}
+
+.info-text{
+    display: flex;
+    color: #1f2937;
+    gap: 40px;
+    text-align: center;
+}
+
+.info-text p {
+    width: 450px;
+    margin-bottom: 80px;
 }
